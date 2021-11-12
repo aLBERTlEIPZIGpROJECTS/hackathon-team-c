@@ -356,7 +356,7 @@ form {
 }
 
 header, footer {
-  padding: 5vh 20vw;
+  padding: 2vh 5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,3 +409,37 @@ footer {
 /* @media screen and (min-width: 1440px){
     
 } */
+
+.mealbox{background-color: #6a40bf;
+        height: 125px;
+        display:inline-flex;
+        width:500px;}
+
+.itemcard{
+  background-color: lightgrey;
+    width:100px;
+    height:75px;
+    display:inline-flex;
+    border: 2px black solid;
+   text-align: center;
+   padding:2px;
+}
+
+.storecontainer{
+  padding-top: 30px;
+  padding-bottom:60px;
+}
+
+.subscriptioncheckout{
+  margin-bottom: 80px;
+  margin-left: auto;
+}
+
+.itemnumber{
+  height: 20px;
+  width:30px
+}
+
+.aboutpicture{background:pink;
+padding: 50px;
+display:block;}
