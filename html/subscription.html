@@ -17,12 +17,12 @@
   <header class="header__main">
     <div class="header__superior">
       <div class="header__left">
-        <img src="../loremMaterials/placeholderLogo.svg" alt="logo" class="logo__main">
+        <img src="../icon/logoNoBg.png" alt="logo" class="logo__main">
         <h1 class="header__secondary-title">Restaurant Name</h1>
       </div>
       <div class="header__right">
-        <img src="../loremMaterials/placeholdercart.svg" alt="cart" class="header__placeholderBurger">
-        <img src="../loremMaterials/placeholderBurger.svg" alt="burger" class="header__cart">
+        <img src="./loremMaterials/placeholdercart.svg" alt="cart" class="header__placeholderBurger">
+        <img src="./loremMaterials/placeholderBurger.svg" alt="burger" class="header__placeholderBurger">
         <nav class="header__nav">
           <a href="./html/subscription.html">Boxes</a>
           <a href="./html/shop.html">Store</a>
@@ -34,56 +34,80 @@
   </header>
   <main>
 
-    <div class="mealbox-container">
+    <div class="mealbox__container">
+        <div class="mealbox__item">
+          <h2 class="mealbox__title">Regular</h2>
+          <div class="mealbox__displayed">
 
-        <div class="mealbox">
-            <input type="number" class="itemnumber"></input>
-            <a class="mealbutton">Regular Mealbox</a>
+            <div class="mealbox__up">
+              <img src="/loremMaterials/placeholderImg.jpg" alt="" class="mealbox__img">
+              <div class="mealbox__description-container">
+                <h2 class="mealbox__name">Chicken Curry</h2>
+                <p class="mealbox__description">Cooked in butter and tomato sauce</p>
+              </div>
+            </div>
+            <div class="mealbox__option-container">
+              
+              <div class="mealbox__option">
+                <p class="mealbox__howmany">4 portions</p>
+                <p class="mealbox__price">35 e.</p>
+              </div>
+              <div class="mealbox__option">
+                <p class="mealbox__howmany">Price per portion</p>
+                <p class="mealbox__price">13 e.</p>
+              </div>
+            </div>
+            <p class="mealbox__note">All ingredients included</p>
+          </div>
         </div>
-        
-        <div class="mealbox">
-            <input type="number" class="itemnumber"></input>
-            <a class="mealbutton">Vegetarian Mealbox</a>
+    </div>
+    <div class="mealbox__container">
+        <div class="mealbox__item">
+          <div class="mealbox__up">
+            <img src="/loremMaterials/placeholderImg.jpg" alt="" class="mealbox__img">
+            <div class="mealbox__description-container">
+              <h2 class="mealbox__name">Chicken Curry</h2>
+              <p class="mealbox__description">Cooked in butter and tomato sauce</p>
+            </div>
+          </div>
+          <div class="mealbox__option-container">
+
+            <div class="mealbox__option">
+              <p class="mealbox__howmany">4 portions</p>
+              <p class="mealbox__price">35 e.</p>
+            </div>
+            <div class="mealbox__option">
+              <p class="mealbox__howmany">Price per portion</p>
+              <p class="mealbox__price">13 e.</p>
+            </div>
+          </div>
+            <p class="mealbox__note">All ingredients included</p>
         </div>
-        
-        <div class="mealbox">
-            <input type="number" class="itemnumber"></input>
-            <a class="mealbutton">Vegan Mealbox</a>
+    </div>
+    <div class="mealbox__container">
+        <div class="mealbox__item">
+          <div class="mealbox__up">
+            <img src="/loremMaterials/placeholderImg.jpg" alt="" class="mealbox__img">
+            <div class="mealbox__description-container">
+              <h2 class="mealbox__name">Chicken Curry</h2>
+              <p class="mealbox__description">Cooked in butter and tomato sauce</p>
+            </div>
+          </div>
+          <div class="mealbox__option-container">
+
+            <div class="mealbox__option">
+              <p class="mealbox__howmany">4 portions</p>
+              <p class="mealbox__price">35 e.</p>
+            </div>
+            <div class="mealbox__option">
+              <p class="mealbox__howmany">Price per portion</p>
+              <p class="mealbox__price">13 e.</p>
+            </div>
+          </div>
+            <p class="mealbox__note">All ingredients included</p>
         </div>
-    </div>      
-        <!-- 
-        <div class="storecontainer">
-            <h3>Add An item from our store</h3>
-            <div class="itemcard">
-                <input type="number" class="itemnumber"></input>
-                <a class="itembutton">Rice</a>
-            </div>
-            <div class="itemcard">
-                <input type="number" class="itemnumber"></input>
-                <a class="itembutton">Tea</a>
-            </div>
-            <div class="itemcard">
-                <input type="number" class="itemnumber"></input>
-                <a class="itembutton">Ginger</a>
-            </div>
-            <div class="itemcard">
-                <input type="number" class="itemnumber"></input>
-                <a class="itembutton">Black Pepper</a>
-            </div>
-            <div class="itemcard">
-                <input type="number"  class="itemnumber"></input>
-                <a class="itembutton">Green pepper</a>
-            </div>
-            <div class="itemcard">
-                <input type="number" class="itemnumber"></input>
-                <a class="itembutton">Turmeric</a>
-            </div>
-            <div class="itemcard">
-                <input  type="number" class="itemnumber"></input>
-                <a class="itembutton">Black Rice</a>
-            </div>
-        </div> -->
-        <a href="./shop.html"><button>Add some interesting ingredients!</button>          </a>
+    </div>
+          
         <button class="section__CTA">Checkout</button>
     </main>
         <footer>

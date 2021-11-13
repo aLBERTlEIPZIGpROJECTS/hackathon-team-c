@@ -1,7 +1,56 @@
 .mealbox{
-    padding: 0 5vw;
 
-    &__banner{
-        background: url(/loremMaterials/placeholderImg.jpg);
+    &__title{
+        padding: 3vh 0 5vh;
+    }
+    &__item{
+        margin: 5vh 5vw;
+    }
+    &__up{
+        display: flex;
+    }
+    &__name{
+        font-size: $f3;
+        text-align: center;
+    }    
+    &__description{
+        font-size: $f2;
+        margin: 0 5vw;
+        text-align: center;
+    }
+    &__img{
+        height: 100%;
+        width: $imgMedPlus;
+        grid-area: img;
+        margin-bottom: 1.5vh;
+        border-radius: 0 0 10px 0;
+    }
+    &__howmany{
+        font-size: $f2;
+    }
+    &__price{
+        font-size: $f2;
+        grid-area: price;
+    }/* 
+    &__plus{
+        background-color: red;
+    } */
+    &__container{
+        grid-area: container;
+    }
+    &__note{
+        font-size: $f3;
+        text-align: center;
+        margin-top: 5vh;
+    }
+    &__option-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__displayed{
+        border: 3px solid blue;
+        border-radius: 20px;
+        overflow: hidden;
     }
 }
+
