@@ -345,19 +345,17 @@ template {
 /* saturation */
 /* brightness */
 /* === go to subAtoms === */
-/* === go to subAtoms === */
 /* === go to colors === */
 /* saturation */
 /* brightness */
 /* === go to subAtoms === */
-/* === go to subAtoms === */
 h1 {
-  color: #bf7540;
   font-size: 3.79259rem;
   font-weight: 700;
   margin-bottom: .5em;
   line-height: .8em;
   text-align: center;
+  color: white;
 }
 
 h1 + p {
@@ -370,23 +368,24 @@ h1 + p {
 }
 
 h2 {
-  color: #40bf75;
+  color: #4071bf;
   text-align: center;
   font-size: 2.84444rem;
   font-weight: 700;
   /* margin-bottom: 1.5em; */
   line-height: .8em;
   padding: 2em 0;
+  color: white;
 }
 
 h3 {
-  color: #bf7540;
+  color: #bf8e40;
   font-size: 2.84444rem;
   margin-bottom: .5em;
 }
 
 p, textarea, figcaption, label, input, textarea, li {
-  color: #bf7540;
+  color: #bf8e40;
   font-size: 2.13333rem;
   margin-bottom: .5em;
 }
@@ -406,7 +405,7 @@ p {
 }
 
 blockquote {
-  color: #bf7540;
+  color: #bf8e40;
   font-size: 1.6rem;
   font-style: italic;
   margin-bottom: .5em;
@@ -421,23 +420,27 @@ blockquote ::after {
 }
 
 a {
-  color: #bf7540;
+  color: #bf8e40;
   font-size: 2.13333rem;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ac7853;
+  color: #ac8a53;
 }
 
 a :active {
   color: white;
-  background-color: #bf7540;
+  background-color: #bf8e40;
 }
 
 a :focus {
-  color: #ac7853;
-  background-color: #bf7540;
+  color: #ac8a53;
+  background-color: #bf8e40;
+}
+
+.indigo-span {
+  color: #4071bf;
 }
 
 .logo {
@@ -455,22 +458,22 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 2.13333rem;
-  color: #bf7540;
+  color: #bf8e40;
   transition: 300ms;
 }
 
 button :hover {
-  color: #ac7853;
+  color: #ac8a53;
 }
 
 button :active {
   color: white;
-  background-color: #bf7540;
+  background-color: #bf8e40;
 }
 
 button :focus {
-  color: #ac7853;
-  background-color: #bf7540;
+  color: #ac8a53;
+  background-color: #bf8e40;
 }
 
 a {
@@ -511,7 +514,7 @@ nav a {
 .logo__name {
   font-size: 2.13333rem;
   font-weight: 700;
-  color: #bf7540;
+  color: #bf8e40;
   line-height: 1.5em;
 }
 
@@ -519,7 +522,7 @@ nav a {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  border: 3px solid #bf7540;
+  border: 3px solid #bf8e40;
   padding: 3em 0 2em;
 }
 
@@ -533,13 +536,13 @@ nav a {
 .card__tittle {
   font-size: 2.84444rem;
   font-weight: 700;
-  color: #bf7540;
+  color: #bf8e40;
   margin: 2em auto 1em;
 }
 
 .card__txt {
   font-size: 2.13333rem;
-  color: #bf7540;
+  color: #bf8e40;
   margin: 0 1em;
 }
 
@@ -571,17 +574,17 @@ form {
 }
 
 .form-field__input {
-  outline: 1px solid #bf7540;
+  outline: 1px solid #bf8e40;
   padding: .5em 0 .5em .25em;
-  border: 0.5px solid #bf7540;
+  border: 0.5px solid #bf8e40;
 }
 
 .form-field__txt {
-  border: 0.5px solid #bf7540;
+  border: 0.5px solid #bf8e40;
 }
 
 .form-field__txt:focus {
-  outline: 1.5px solid #bf7540;
+  outline: 1.5px solid #bf8e40;
 }
 
 .form-field__btn {
@@ -605,7 +608,7 @@ form {
   align-items: center;
   padding: 1em 3em;
   width: 10vw;
-  background-color: #8c7d73;
+  background-color: #8c8273;
   position: fixed;
   inset: 0 auto 0 0;
   scroll-padding: 1rem 0 1rem;
@@ -628,6 +631,7 @@ form {
 
 .header__main-title {
   text-align: left;
+  color: white;
 }
 
 .header__secondary {
@@ -883,10 +887,13 @@ section__img {
 
 .mealbox__title {
   padding: 3vh 0 5vh;
+  color: #4071bf;
 }
 
 .mealbox__item {
   margin: 5vh 5vw;
+  background-image: linear-gradient(90deg, white, #fed89a);
+  border-radius: 15px;
 }
 
 .mealbox__up {
@@ -940,6 +947,7 @@ section__img {
   border: 3px solid blue;
   border-radius: 20px;
   overflow: hidden;
+  display: none;
 }
 
 .works {
@@ -963,6 +971,10 @@ section__img {
   background: url(/loremMaterials/placeholderImg.jpg);
 }
 
+.store__hero {
+  background-color: rgba(77, 77, 77, 0.6);
+}
+
 .team {
   padding: 0 5vw;
 }
@@ -976,6 +988,10 @@ section__img {
 
 .team__banner {
   background: url(/loremMaterials/placeholderImg.jpg);
+}
+
+.team__hero {
+  background-color: rgba(77, 77, 77, 0.6);
 }
 
 /* @media screen and (min-width: 768px){
