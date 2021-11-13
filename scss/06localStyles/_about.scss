@@ -1,0 +1,38 @@
+.our{
+    &__story{
+        margin: 2vh 5vw 10vh;
+    }
+    &__banner{
+        width: $imgBanner;
+        height: 20vh;
+        object-fit: cover;
+    }
+    &__farmers{
+        margin: 0 5vw;
+        display: flex;
+    }
+    &__picture{
+        height: 30vw;
+        width: 30vw;
+        margin: 0 5px;
+    }
+}
+
+.us{
+    &__list{
+        margin: 5vh 5vw 0;
+    }
+    &__div{
+        display: flex;
+        margin-bottom: 1.5em;
+    }
+    &__txt{
+        margin-left: 1em;
+    }
+    &__explanation{
+        margin: 0 5vw;
+    }
+    &__p{
+        margin: 2em 0;
+    }
+}

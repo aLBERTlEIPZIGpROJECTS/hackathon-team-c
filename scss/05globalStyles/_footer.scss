@@ -3,5 +3,26 @@ footer{
     inset: auto 0 0 0 ;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    background-color: #4d4d4d;
+    padding: 5vh 5vw;
+
+    p, a, address{
+        font-size: $f2;
+        color: white;
+    }
+    a{
+        margin: 0 2vw;
+    }
+}
+
+.footer{
+    &__map{
+        display: none;
+    }
+    &__social{
+        display: flex;
+    }
+    &__social-icon{
+        height: 20px;
+    }
 }

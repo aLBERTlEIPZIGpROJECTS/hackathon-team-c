@@ -1,0 +1,25 @@
+.banner{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    
+    &__store{
+        margin: 10vh 0 5vh;
+        background: url(/img/home2.jpeg);
+        object-fit: contain;
+    }
+
+    &__team{
+        margin: 10vh 0 5vh;
+        background: url(/img/home3.jpg);
+        object-fit: cover;
+
+    }
+
+    &__about{
+        margin-top: 10vh 0 5vh;
+        background: url(/img/home4.jpeg);
+        object-fit: contain;
+
+    }
+}

@@ -8,6 +8,7 @@ h1{
     font-weight: 700;
     margin-bottom: .5em;
     line-height: .8em;
+    text-align: center;
     
     & + p{
         font-size: $f4;
@@ -15,12 +16,18 @@ h1{
     }
 }
 
+.secondary-title{
+    padding-top: 15vw;
+}
+
 h2{
     color: $triadic1Col;
+    text-align: center;
     font-size: $f4;
     font-weight: 700;
-    margin-bottom: .5em;
+    /* margin-bottom: 1.5em; */
     line-height: .8em;
+    padding: 2em 0;
 }
 
 h3{
@@ -38,6 +45,10 @@ p, textarea, figcaption, label, input, textarea, li{
 a, textarea, figcaption{
     line-height: 1.5em;
     width: clamp(45ch, 50%, 75ch);
+}
+
+p{
+    line-height: 1.6em;
 }
 
 

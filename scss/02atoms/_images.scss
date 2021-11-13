@@ -1,4 +1,16 @@
 $imgLogo:   4vw;
 $imgSmall:  8vw;
 $imgMed:    16vw;
-$imgBig:    33vw;
+$imgMedPlus: 40vw;
+$imgBig:    75vw;
+$imgBanner: 100vw;
+$imgCarousel: 25vw;
+
+.logo{
+    height: 40px;
+
+    &__main{
+        height: 20px;
+        margin-right: 1vw;
+    }
+}
