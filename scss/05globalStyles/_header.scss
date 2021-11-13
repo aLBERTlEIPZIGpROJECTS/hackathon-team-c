@@ -1,0 +1,58 @@
+.header{
+    
+    &__main{
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        background: url(../../loremMaterials/placeholderImg.jpg);
+        background-size: cover;
+    }
+
+    &__main-title{
+        text-align: left;
+    }
+
+    &__secondary{
+        background: url(../../loremMaterials/placeholderImg.jpg);
+    }
+
+    &__secondary-title{
+        padding: 1em 0;
+    }
+
+    &__secondary-title{
+        font-size: $f2;
+    }
+    
+    &__superior{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__left{
+        padding-left: 2vw;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__center{
+        padding-top: 10vh;
+        padding-right: 10vw;
+        padding-left: 10vw;
+        text-align: center;
+    }
+    
+    &__right{
+        width: 25vw;
+        padding-right: 2vw;
+    }
+
+    &__nav{
+        display: none;
+    }
+
+    &__placeholderBurger{
+        height: 30px;
+        margin-left: 5vw;
+    }
+
+}

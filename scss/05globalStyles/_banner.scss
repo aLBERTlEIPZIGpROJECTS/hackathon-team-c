@@ -1,0 +1,16 @@
+.banner{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    
+    &__store{
+        margin: 10vh 0 5vh;
+        background: url(/loremMaterials/placeholderImg.jpg);
+    }
+
+    &__team{
+        margin: 10vh 0 5vh;
+        background: url(/loremMaterials/placeholderImg.jpg);
+    }
+    
+}

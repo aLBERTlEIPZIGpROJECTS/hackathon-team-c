@@ -1,9 +1,22 @@
 section{
-    margin: 0;
+    
+    padding: 5vh 0;
+
+    &__content{
+        padding: 0  7.5vw;
+    }
+
     &__img{
         height: $imgMed;
         width: $imgMed;
         object-fit: cover;
         margin: 2em 0;
     }
+}
+
+.section__CTA{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60vw;
 }

@@ -1,0 +1,33 @@
+.works{
+    padding: 0 5vw;
+    &__list{
+        display: flex;
+    }
+    &__icon{
+        height: 40px;
+        margin-right: 1em;
+    }
+}
+
+.store{
+    padding: 0 5vw;
+
+    &__banner{
+        background: url(/loremMaterials/placeholderImg.jpg);
+    }
+}
+
+.team {
+    padding: 0 5vw;
+
+    &__img{
+        width: $imgBig;
+        height: 20vh;
+        object-fit: cover;
+        margin: 10vh 5vw 5vh;
+    }
+
+    &__banner{
+        background: url(/loremMaterials/placeholderImg.jpg);
+    }
+}

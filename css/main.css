@@ -357,6 +357,7 @@ h1 {
   font-weight: 700;
   margin-bottom: .5em;
   line-height: .8em;
+  text-align: center;
 }
 
 h1 + p {
@@ -364,12 +365,22 @@ h1 + p {
   font-weight: 400;
 }
 
+.secondary-title {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 5vw;
+  background: url(../../loremMaterials/placeholderImg.jpg);
+  background-size: cover;
+}
+
 h2 {
   color: #40bf75;
+  text-align: center;
   font-size: 2.84444rem;
   font-weight: 700;
-  margin-bottom: .5em;
+  /* margin-bottom: 1.5em; */
   line-height: .8em;
+  padding: 2em 0;
 }
 
 h3 {
@@ -429,8 +440,18 @@ a :focus {
   background-color: #bf7540;
 }
 
+.logo {
+  height: 40px;
+}
+
+.logo__main {
+  height: 20px;
+  margin-right: 1vw;
+}
+
 button {
   padding: .5em 1.5em .5em 1.5em;
+  margin-top: 2.5rem;
   border: none;
   border-radius: 5px;
   font-size: 2.13333rem;
@@ -482,8 +503,8 @@ nav a {
   display: flex;
 }
 
-.logo__img {
-  height: 4vw;
+.logo__main {
+  height: 20px;
   margin-right: 15px;
 }
 
@@ -598,8 +619,64 @@ form {
   font-size: 10px;
 }
 
+.header__main {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  background: url(../../loremMaterials/placeholderImg.jpg);
+  background-size: cover;
+}
+
+.header__main-title {
+  text-align: left;
+}
+
+.header__secondary {
+  background: url(../../loremMaterials/placeholderImg.jpg);
+}
+
+.header__secondary-title {
+  padding: 1em 0;
+}
+
+.header__secondary-title {
+  font-size: 1.6rem;
+}
+
+.header__superior {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__left {
+  padding-left: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__center {
+  padding-top: 10vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  text-align: center;
+}
+
+.header__right {
+  width: 25vw;
+  padding-right: 2vw;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__placeholderBurger {
+  height: 30px;
+  margin-left: 5vw;
+}
+
 main {
-  padding: 0 20vw;
+  margin-top: 5vh;
+  margin-bottom: 60vw;
 }
 
 footer {
@@ -607,7 +684,29 @@ footer {
   inset: auto 0 0 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  background-color: #4d4d4d;
+  padding: 5vh 5vw;
+}
+
+footer p, footer a, footer address {
+  font-size: 1.6rem;
+  color: white;
+}
+
+footer a {
+  margin: 0 2vw;
+}
+
+.footer__map {
+  display: none;
+}
+
+.footer__social {
+  display: flex;
+}
+
+.footer__social-icon {
+  height: 20px;
 }
 
 .article {
@@ -621,8 +720,28 @@ footer {
   margin: 2em 0;
 }
 
+.banner {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+}
+
+.banner__store {
+  margin: 10vh 0 5vh;
+  background: url(/loremMaterials/placeholderImg.jpg);
+}
+
+.banner__team {
+  margin: 10vh 0 5vh;
+  background: url(/loremMaterials/placeholderImg.jpg);
+}
+
 section {
-  margin: 0;
+  padding: 5vh 0;
+}
+
+section__content {
+  padding: 0  7.5vw;
 }
 
 section__img {
@@ -630,6 +749,53 @@ section__img {
   width: 16vw;
   object-fit: cover;
   margin: 2em 0;
+}
+
+.section__CTA {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60vw;
+}
+
+.about__banner {
+  background: url(/loremMaterials/placeholderImg.jpg);
+}
+
+.works {
+  padding: 0 5vw;
+}
+
+.works__list {
+  display: flex;
+}
+
+.works__icon {
+  height: 40px;
+  margin-right: 1em;
+}
+
+.store {
+  padding: 0 5vw;
+}
+
+.store__banner {
+  background: url(/loremMaterials/placeholderImg.jpg);
+}
+
+.team {
+  padding: 0 5vw;
+}
+
+.team__img {
+  width: 75vw;
+  height: 20vh;
+  object-fit: cover;
+  margin: 10vh 5vw 5vh;
+}
+
+.team__banner {
+  background: url(/loremMaterials/placeholderImg.jpg);
 }
 
 /* @media screen and (min-width: 768px){
