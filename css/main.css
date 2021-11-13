@@ -736,19 +736,19 @@ footer a {
 .banner__store {
   margin: 10vh 0 5vh;
   background: url(/img/home2.jpeg);
-  object-fit: contain;
+  background-size: cover;
 }
 
 .banner__team {
   margin: 10vh 0 5vh;
   background: url(/img/home3.jpg);
-  object-fit: cover;
+  background-size: cover;
 }
 
 .banner__about {
   margin-top: 10vh 0 5vh;
   background: url(/img/home4.jpeg);
-  object-fit: contain;
+  background-size: cover;
 }
 
 section {
@@ -875,11 +875,71 @@ section__img {
 }
 
 .mealbox {
-  padding: 0 5vw;
+  /* 
+    &__plus{
+        background-color: red;
+    } */
 }
 
-.mealbox__banner {
-  background: url(/loremMaterials/placeholderImg.jpg);
+.mealbox__title {
+  padding: 3vh 0 5vh;
+}
+
+.mealbox__item {
+  margin: 5vh 5vw;
+}
+
+.mealbox__up {
+  display: flex;
+}
+
+.mealbox__name {
+  font-size: 2.13333rem;
+  text-align: center;
+}
+
+.mealbox__description {
+  font-size: 1.6rem;
+  margin: 0 5vw;
+  text-align: center;
+}
+
+.mealbox__img {
+  height: 100%;
+  width: 40vw;
+  grid-area: img;
+  margin-bottom: 1.5vh;
+  border-radius: 0 0 10px 0;
+}
+
+.mealbox__howmany {
+  font-size: 1.6rem;
+}
+
+.mealbox__price {
+  font-size: 1.6rem;
+  grid-area: price;
+}
+
+.mealbox__container {
+  grid-area: container;
+}
+
+.mealbox__note {
+  font-size: 2.13333rem;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.mealbox__option-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mealbox__displayed {
+  border: 3px solid blue;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .works {
