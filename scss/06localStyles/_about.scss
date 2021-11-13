@@ -1,6 +1,21 @@
-.about{
+
+
+.our{
+    &__story{
+        margin: 2vh 5vw 10vh;
+    }
     &__banner{
-        background: url(/loremMaterials/placeholderImg.jpg);
+        width: $imgBanner;
+        height: 20vh;
+        object-fit: cover;
+    }
+    &__farmers{
+        margin: 0 5vw;
+        display: flex;
+    }
+    &__picture{
+        height: 30vw;
+        width: 30vw;
+        margin: 0 5px;
     }
 }
-

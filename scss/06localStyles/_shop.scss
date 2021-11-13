@@ -1,0 +1,58 @@
+.carousel{
+    &__all{
+        display: flex;
+        overflow: hidden;
+    }
+
+    &__img{
+        height: $imgCarousel;
+        width: $imgCarousel;
+        object-fit: cover;
+        margin: 0 5px;
+    }
+}
+
+.hot{
+    &__title{
+        margin-bottom: 5vh;
+        background: url(/loremMaterials/placeholderImg.jpg);
+
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+    }
+    &__product{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vh;
+    }
+
+    &__img{
+        width: $imgMedPlus;
+        height: $imgMedPlus;
+        margin-bottom: 0;
+    }
+    &__name{
+        padding: 1em 0 .75em;
+        font-size: $f2;
+    }
+    &__description{
+        padding: 0 10vw;
+        font-size: $f2;
+    }
+    &__cart{
+        height: 20px;
+        position: relative;
+        top: -20vh;
+        right: -15vw;
+        background-color: white;
+    }
+    &__twin{
+        display: flex;
+    }
+}

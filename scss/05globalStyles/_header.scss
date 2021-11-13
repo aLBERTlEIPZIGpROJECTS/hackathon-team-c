@@ -44,6 +44,9 @@
     &__right{
         width: 25vw;
         padding-right: 2vw;
+        display: flex;
+        justify-content: space-between;
+        width: 25vw;
     }
 
     &__nav{
@@ -52,7 +55,10 @@
 
     &__placeholderBurger{
         height: 30px;
-        margin-left: 5vw;
+        background-color: white;
     }
-
+    &__cart{
+        background-color: white;
+        height: 20px;
+    }
 }

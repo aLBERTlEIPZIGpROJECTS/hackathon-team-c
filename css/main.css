@@ -366,11 +366,7 @@ h1 + p {
 }
 
 .secondary-title {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  padding-left: 5vw;
-  background: url(../../loremMaterials/placeholderImg.jpg);
-  background-size: cover;
+  padding-top: 15vw;
 }
 
 h2 {
@@ -663,6 +659,9 @@ form {
 .header__right {
   width: 25vw;
   padding-right: 2vw;
+  display: flex;
+  justify-content: space-between;
+  width: 25vw;
 }
 
 .header__nav {
@@ -671,11 +670,15 @@ form {
 
 .header__placeholderBurger {
   height: 30px;
-  margin-left: 5vw;
+  background-color: white;
+}
+
+.header__cart {
+  background-color: white;
+  height: 20px;
 }
 
 main {
-  margin-top: 5vh;
   margin-bottom: 60vw;
 }
 
@@ -736,6 +739,11 @@ footer a {
   background: url(/loremMaterials/placeholderImg.jpg);
 }
 
+.banner__about {
+  margin-top: 10vh 0 5vh;
+  background: url(/loremMaterials/placeholderImg.jpg);
+}
+
 section {
   padding: 5vh 0;
 }
@@ -758,7 +766,91 @@ section__img {
   width: 60vw;
 }
 
-.about__banner {
+.our__story {
+  margin: 2vh 5vw 10vh;
+}
+
+.our__banner {
+  width: 100vw;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.our__farmers {
+  margin: 0 5vw;
+  display: flex;
+}
+
+.our__picture {
+  height: 30vw;
+  width: 30vw;
+  margin: 0 5px;
+}
+
+.carousel__all {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel__img {
+  height: 25vw;
+  width: 25vw;
+  object-fit: cover;
+  margin: 0 5px;
+}
+
+.hot__title {
+  margin-bottom: 5vh;
+  background: url(/loremMaterials/placeholderImg.jpg);
+}
+
+.hot__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.hot__product {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.hot__img {
+  width: 40vw;
+  height: 40vw;
+  margin-bottom: 0;
+}
+
+.hot__name {
+  padding: 1em 0 .75em;
+  font-size: 1.6rem;
+}
+
+.hot__description {
+  padding: 0 10vw;
+  font-size: 1.6rem;
+}
+
+.hot__cart {
+  height: 20px;
+  position: relative;
+  top: -20vh;
+  right: -15vw;
+  background-color: white;
+}
+
+.hot__twin {
+  display: flex;
+}
+
+.mealbox {
+  padding: 0 5vw;
+}
+
+.mealbox__banner {
   background: url(/loremMaterials/placeholderImg.jpg);
 }
 
