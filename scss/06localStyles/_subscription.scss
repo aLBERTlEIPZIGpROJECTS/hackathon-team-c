@@ -2,9 +2,12 @@
 
     &__title{
         padding: 3vh 0 5vh;
+        color: $complementaryCol;
     }
     &__item{
         margin: 5vh 5vw;
+        background-image: linear-gradient(90deg, white, $primaryColLightSat);
+        border-radius: 15px;
     }
     &__up{
         display: flex;
@@ -51,6 +54,7 @@
         border: 3px solid blue;
         border-radius: 20px;
         overflow: hidden;
+        display: none;
     }
 }
 

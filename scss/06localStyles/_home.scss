@@ -15,6 +15,9 @@
     &__banner{
         background: url(/loremMaterials/placeholderImg.jpg);
     }
+    &__hero{
+        background-color: hsla(0, 0%, 30%, .6);
+    }
 }
 
 .team {
@@ -29,5 +32,8 @@
 
     &__banner{
         background: url(/loremMaterials/placeholderImg.jpg);
+    }
+    &__hero{
+        background-color: hsla(0, 0%, 30%, .6);
     }
 }
