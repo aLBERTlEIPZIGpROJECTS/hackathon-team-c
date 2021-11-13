@@ -47,6 +47,10 @@ a, textarea, figcaption{
     width: clamp(45ch, 50%, 75ch);
 }
 
+p{
+    line-height: 1.6em;
+}
+
 
 .subtitle{
     font-size: $f3;

@@ -396,6 +396,10 @@ a, textarea, figcaption {
   width: clamp(45ch, 50%, 75ch);
 }
 
+p {
+  line-height: 1.6em;
+}
+
 .subtitle {
   font-size: 2.13333rem;
   font-weight: 700;
@@ -747,16 +751,6 @@ footer a {
   object-fit: contain;
 }
 
-.test {
-  height: 20vh;
-  width: 100vw;
-  background-color: antiquewhite;
-  background-image: url(../../img/home3.jpg);
-  /* &__img{
-        object-fit: contain;
-    } */
-}
-
 section {
   padding: 5vh 0;
 }
@@ -798,6 +792,27 @@ section__img {
   height: 30vw;
   width: 30vw;
   margin: 0 5px;
+}
+
+.us__list {
+  margin: 5vh 5vw 0;
+}
+
+.us__div {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.us__txt {
+  margin-left: 1em;
+}
+
+.us__explanation {
+  margin: 0 5vw;
+}
+
+.us__p {
+  margin: 2em 0;
 }
 
 .carousel__all {
