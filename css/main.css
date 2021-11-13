@@ -618,7 +618,7 @@ form {
 .header__main {
   padding-top: 5vh;
   padding-bottom: 10vh;
-  background: url(../../loremMaterials/placeholderImg.jpg);
+  background: url(/img/home1.jpeg);
   background-size: cover;
 }
 
@@ -731,17 +731,30 @@ footer a {
 
 .banner__store {
   margin: 10vh 0 5vh;
-  background: url(/loremMaterials/placeholderImg.jpg);
+  background: url(/img/home2.jpeg);
+  object-fit: contain;
 }
 
 .banner__team {
   margin: 10vh 0 5vh;
-  background: url(/loremMaterials/placeholderImg.jpg);
+  background: url(/img/home3.jpg);
+  object-fit: cover;
 }
 
 .banner__about {
   margin-top: 10vh 0 5vh;
-  background: url(/loremMaterials/placeholderImg.jpg);
+  background: url(/img/home4.jpeg);
+  object-fit: contain;
+}
+
+.test {
+  height: 20vh;
+  width: 100vw;
+  background-color: antiquewhite;
+  background-image: url(../../img/home3.jpg);
+  /* &__img{
+        object-fit: contain;
+    } */
 }
 
 section {
