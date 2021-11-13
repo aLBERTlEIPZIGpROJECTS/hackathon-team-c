@@ -2,13 +2,55 @@
 
 /* === go to subAtoms === */
 
-$primaryCol:        hsl($hue, $sat2, $lux2);
-$primaryColMuted:   hsl($hue, $sat1, $lux2);
 
-$compCol:           hsl($complementary, $sat2, $lux2);
+// B&W
 
 $black:             hsl($hue, $sat, $lux);
 $grey1:             hsl($hue, $sat, $lux1);
 $grey2:             hsl($hue, $sat, $lux2);
 $grey3:             hsl($hue, $sat, $lux3);
 $white:             hsl($hue, $sat, 100%);
+
+
+// PRIMARY COLORS
+
+$primaryCol:            hsl($hue, $sat2, $lux2);
+$primaryColSat:         hsl($hue, $sat3, $lux2);
+$primaryColMuted:       hsl($hue, $sat1, $lux2);
+
+$primaryColDark:        hsl($hue, $sat2, $lux1);
+$primaryColDarkSat:     hsl($hue, $sat3, $lux1);
+$primaryColDarkMuted:   hsl($hue, $sat1, $lux1);
+
+$primaryColLight:       hsl($hue, $sat2, $lux3);
+$primaryColLightSat:    hsl($hue, $sat3, $lux3);
+$primaryColLightMuted:  hsl($hue, $sat1, $lux3);
+
+
+// TRIADIC #1
+
+$triadic1Col:            hsl($triadic1, $sat2, $lux2);
+$triadic1ColSat:         hsl($triadic1, $sat3, $lux2);
+$triadic1ColMuted:       hsl($triadic1, $sat1, $lux2);
+
+$triadic1ColDark:        hsl($triadic1, $sat2, $lux1);
+$triadic1ColDarkSat:     hsl($triadic1, $sat3, $lux1);
+$triadic1ColDarkMuted:   hsl($triadic1, $sat1, $lux1);
+
+$triadic1ColLight:       hsl($triadic1, $sat2, $lux3);
+$triadic1ColLightSat:    hsl($triadic1, $sat3, $lux3);
+$triadic1ColLightMuted:  hsl($triadic1, $sat1, $lux3);
+
+// TRIADIC #2
+
+$triadic2Col:            hsl($triadic2, $sat2, $lux2);
+$triadic2ColSat:         hsl($triadic2, $sat3, $lux2);
+$triadic2ColMuted:       hsl($triadic2, $sat1, $lux2);
+
+$triadi2ColDark:         hsl($triadic2, $sat2, $lux1);
+$triadic2ColDarkSat:     hsl($triadic2, $sat3, $lux1);
+$triadic2ColDarkMuted:   hsl($triadic2, $sat1, $lux1);
+
+$triadi2ColLight:        hsl($triadic2, $sat2, $lux3);
+$triadic2ColLightSat:    hsl($triadic2, $sat3, $lux3);
+$triadic2ColLightMuted:  hsl($triadic2, $sat1, $lux3);
