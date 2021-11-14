@@ -1,9 +1,13 @@
+.test{
+    color: red;
+    background-color: yellow;
+    outline: 5px solid purple;
+}
 .header{
     
     &__main{
         padding-top: 5vh;
         padding-bottom: 10vh;
-        background-color: red;
         background: url(../img/home1.jpeg);
         background-size: cover;
     }
