@@ -445,7 +445,7 @@ a :focus {
 }
 
 .quote {
-  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif, Helvetica;
   text-align: center;
   margin: 2em auto;
   font-size: 3.79259rem;
@@ -503,14 +503,65 @@ a {
   height: 60px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.burger {
+  position: absolute;
+  inset: 0 0 auto auto;
 }
 
-nav a {
-  margin: 0 1em;
+.burger div {
+  width: 25px;
+  height: 5px;
+  margin: 5px;
+  background-color: #fc9d03;
+}
+
+.nav {
+  background-color: white;
+  width: 27vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  inset: 50px 0 auto auto;
+  transform: translateX(100%);
+  transition: 400ms ease-in-out;
+}
+
+.nav-active {
+  transform: translate(0);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-8px, 6px);
+  background-color: #9403fc;
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-8px, -6px);
+  background-color: #9403fc;
+}
+
+@media screen and (min-width: 1080px) {
+  .burger {
+    display: none;
+  }
+  .nav {
+    transform: translate(0);
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    background-color: lime;
+  }
+  .nav__link {
+    background-color: red;
+    width: fit-content;
+    padding: 0 1em;
+    display: flex;
+  }
 }
 
 .logo {
@@ -718,13 +769,13 @@ form {
   color: #fc9d03;
 }
 
-main {
-  margin-bottom: 60vw;
-}
-
+/* main{
+    margin-bottom: 40vw;
+} */
 footer {
-  position: sticky;
-  bottom: 0px;
+  /*     position: sticky; */
+  /*  position: fixed;
+    inset: auto 0 0 0 ; */
   display: flex;
   justify-content: space-between;
   background-color: #4d4d4d;
@@ -938,6 +989,10 @@ section__img {
 
 .hot__twin {
   display: flex;
+}
+
+.sub__main {
+  margin-bottom: 10vh;
 }
 
 .mealbox {
