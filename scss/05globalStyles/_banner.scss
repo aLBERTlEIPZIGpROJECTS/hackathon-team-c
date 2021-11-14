@@ -11,7 +11,7 @@
 
     &__team{
         margin: 10vh 0 5vh;
-        background: url(/img/home3.jpg);
+        background: url(/img/home4.jpeg);
         background-size:cover;
     }
 
@@ -24,6 +24,12 @@
         background: url(/img/home4.jpeg);
         background-size:cover;
         height: 20vh;
-        margin: 5vh 0 30vh;
+        margin: 5vh 0 50vh;
+    }
+    &__ourteam{
+        background: url(/img/teamc_03_x1500.jpg);
+        background-size:cover;
+        height: 20vh;
+        margin: 5vh 0 5vh;
     }
 }
