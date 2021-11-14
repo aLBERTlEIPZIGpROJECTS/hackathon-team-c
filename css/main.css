@@ -505,7 +505,7 @@ a {
 
 .burger {
   position: absolute;
-  inset: 5vh 5vw auto auto;
+  inset: 0 auto auto;
 }
 
 .burger div {
@@ -1186,22 +1186,20 @@ section__img {
   .header__center {
     padding-top: 0;
   }
-}
-
-.secondary-title {
-  padding-top: 0vw;
+  .secondary-title {
+    padding-top: 0vw;
+  }
+  .mealbox__name {
+    font-size: 2.84444rem;
+  }
+  .mealbox__description {
+    font-size: 2.13333rem;
+  }
 }
 
 @media screen and (min-width: 800px) {
   .header__center {
     padding-top: 0;
-  }
-  .mealbox__container {
-    display: flex;
-    justify-content: space-around;
-  }
-  .mealbox__item {
-    width: 30vw;
   }
 }
 
@@ -1259,13 +1257,6 @@ section__img {
 }
 
 @media screen and (width: 1200px) {
-  .mealbox__container {
-    display: flex;
-    justify-content: space-around;
-  }
-  .mealbox__item {
-    width: 30vw;
-  }
   .impressum__title {
     color: #5e3a78;
     margin-bottom: 10vh;

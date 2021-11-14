@@ -10,11 +10,20 @@
             padding-top: 0;
         }
     }
+    .secondary-title{
+        padding-top: 0vw;
+    }
+
+    .mealbox{
+        &__name{
+            font-size: $f4;
+        }
+        &__description{
+            font-size: $f3;
+        }
+    }
 }
 
-.secondary-title{
-    padding-top: 0vw;
-}
 
 @media screen and (min-width: 800px){
     .header{
@@ -22,16 +31,7 @@
             padding-top: 0;
         }
     }
-    .mealbox{
-
-        &__container{
-            display: flex;
-            justify-content: space-around;
-        }
-        &__item{
-            width: 30vw;
-        }
-    }
+    
 }
 
 @media screen and (min-width: 1200px){
@@ -98,16 +98,6 @@
 
 @media screen and (width: 1200px){
 
-    .mealbox{
-
-        &__container{
-            display: flex;
-            justify-content: space-around;
-        }
-        &__item{
-            width: 30vw;
-        }
-    }
 
     .impressum{
         &__title{
