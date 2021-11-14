@@ -1,8 +1,49 @@
-nav{
+.burger {
+    position: absolute;
+    inset: 0 0 auto auto;
+     div{
+        width: 25px;
+        height: 5px;
+        margin: 5px;
+        background-color: purple;
+    }
+}
+
+.nav{
+    background-color: purple;
+    width: 27vw;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    a{
-        margin: 0 1em;
+    position: absolute;
+    inset: 50px 0 auto auto;
+    transform: translateX(100%);
+    transition: 400ms ease-in-out;
+}
+
+.nav-active{
+    transform: translate(0);
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-8px, -6px);
+}
+
+
+
+
+
+
+@media screen and (min-width: 1080px) {
+    .nav{
+        transform: translate(0);
     }
 }
