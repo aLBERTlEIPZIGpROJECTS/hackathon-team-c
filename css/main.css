@@ -635,7 +635,7 @@ form {
 }
 
 .header__secondary {
-  background: url(../../loremMaterials/placeholderImg.jpg);
+  background: url(/img/home1.jpeg);
 }
 
 .header__secondary-title {
@@ -1005,7 +1005,7 @@ section__img {
 }
 
 .store__banner {
-  background: url(/loremMaterials/placeholderImg.jpg);
+  background: url(/img/home1.jpeg);
 }
 
 .store__hero {
@@ -1025,7 +1025,7 @@ section__img {
 }
 
 .team__banner {
-  background: url(/loremMaterials/placeholderImg.jpg);
+  background: url(/img/home1.jpeg);
 }
 
 .team__hero {
