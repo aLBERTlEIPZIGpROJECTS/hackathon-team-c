@@ -1,5 +1,8 @@
 .works{
     padding: 0 5vw;
+    &__title{
+        background-color: $complementaryCol;
+    }
     &__list{
         display: flex;
     }
@@ -13,7 +16,7 @@
     padding: 0 5vw;
 
     &__banner{
-        background: url(/loremMaterials/placeholderImg.jpg);
+        background: url(/img/home1.jpeg);
     }
     &__hero{
         background-color: hsla(0, 0%, 30%, .6);
@@ -22,6 +25,7 @@
 
 .team {
     padding: 0 5vw;
+    overflow: hidden;
 
     &__img{
         width: $imgBig;
@@ -31,7 +35,7 @@
     }
 
     &__banner{
-        background: url(/loremMaterials/placeholderImg.jpg);
+        background: url(/img/home1.jpeg);
     }
     &__hero{
         background-color: hsla(0, 0%, 30%, .6);
