@@ -79,6 +79,13 @@
         margin: 0 auto;
         margin-bottom: .5em;
     }
+    &__btn:hover{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: .5em;
+        background-color: $complementaryCol;
+        color:white;
+    }
     &__headline{
         color: $primaryColSat;
         font-size: $f4;
