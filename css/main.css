@@ -505,7 +505,7 @@ a {
 
 .burger {
   position: absolute;
-  inset: 5vh 5vw auto auto;
+  inset: 0 auto auto;
 }
 
 .burger div {
