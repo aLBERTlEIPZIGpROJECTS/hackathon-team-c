@@ -1,2 +1,59 @@
-@import 'tablet';
-@import 'monitor';
+@media screen and (min-width: 768px) {
+    
+.header{
+    max-height: 15vh;
+        &__main{
+            padding-bottom: 5vh;
+        }
+
+        &__center{
+            padding-top: 0;
+        }
+    }
+}
+
+.secondary-title{
+    padding-top: 0vw;
+}
+
+@media screen and (min-width: 800px){
+    .header{
+        &__center{
+            padding-top: 0;
+        }
+    }
+    .mealbox{
+
+        &__container{
+            display: flex;
+            justify-content: space-around;
+        }
+        &__item{
+            width: 30vw;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .store__hero{
+        padding: 3rem;
+    }
+    .team__hero{
+        padding: 3rem;
+    }
+}
+
+@media screen and (width: 1200px){
+
+    .mealbox{
+
+        &__container{
+            display: flex;
+            justify-content: space-around;
+        }
+        &__item{
+            width: 30vw;
+        }
+    }
+
+}
