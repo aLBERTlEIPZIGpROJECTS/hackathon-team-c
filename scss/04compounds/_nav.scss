@@ -1,24 +1,38 @@
 .burger {
     position: absolute;
-    inset: 5vh 5vw auto auto;
+    inset:  5vh 5vw auto auto;
+    background-color: $complementaryColDarkMuted;
      div{
         width: 25px;
         height: 5px;
         margin: 5px;
         background-color: $primaryColSat;
+        background-color: white;
+        transition: 200ms;
     }
 }
 
-.nav{
+.small-nav{
     background-color: white;
-    width: 27vw;
+    width: 24vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    inset: 50px 0 auto auto;
+    inset: 100px 0 auto auto;
     transform: translateX(100%);
     transition: 400ms ease-in-out;
+}
+
+.big-nav{
+    transform: translateX(1000px);
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 3em;
+    flex-direction:row;
+    align-items: center;
+    transition: 400ms ease-in-out;
+    background-color: white;
 }
 
 .nav-active{
@@ -27,7 +41,7 @@
 
 .toggle .line1{
     transform: rotate(-45deg) translate(-8px, 6px);
-    background-color: $complementaryColSat;
+    background-color: white;
 }
 
 .toggle .line2{
@@ -36,25 +50,22 @@
 
 .toggle .line3{
     transform: rotate(45deg) translate(-8px, -6px);
-    background-color: $complementaryColSat;
+    background-color: white;
 }
 
 @media screen and (min-width: 1080px) {
     .burger{
         display: none;
     }
-    .nav{
-        transform: translate(0);
-        display: flex;
-        flex-direction: row;;
-        width: 50vw;
-        background-color: lime;
+    .small-nav{
+        display: none;
+    }
+    .big-nav{
+        transform: translateX(0);
     }
     .nav__link{
-        background-color: red;
         width: fit-content;
-        padding: 0 1em;
-        display: flex;
+        padding: 0 1em 0 0;
     }
     
 }
