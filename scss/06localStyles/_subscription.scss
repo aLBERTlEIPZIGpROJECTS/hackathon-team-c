@@ -31,6 +31,7 @@
     }
     &__howmany{
         font-size: $f2;
+        color: $primaryColSat
     }
     &__price{
         font-size: $f2;
@@ -46,6 +47,7 @@
         font-size: $f3;
         text-align: center;
         margin-top: 5vh;
+        color: $complementaryColDarkMuted;
     }
     &__option-container{
         display: flex;

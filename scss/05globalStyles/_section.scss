@@ -19,4 +19,21 @@ section{
     margin-right: auto;
     margin-left: auto;
     width: 60vw;
+    transition: 400ms;
+    &:hover{
+        background-color: $complementaryCol;
+        color: white;
+    }
+    &:focus{
+        background-color: $primaryColSat;
+        color: white;
+        border: white;
+        transform: scale(1.2);
+    }
+    &:active{
+        background-color: $primaryColSat;
+        color: white;
+        border: white;
+    }
+
 }

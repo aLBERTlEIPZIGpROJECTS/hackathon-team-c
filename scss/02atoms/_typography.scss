@@ -92,5 +92,12 @@ a{
 }
 
 .indigo-span{
-    color: $complementaryCol;
+    color: $complementaryColSat;
+}
+.quote{
+    font-family: $logoFont;
+    text-align: center;
+    margin: 2em auto;
+    font-size: $f5;
+    color: $complementaryColSat;
 }
