@@ -368,7 +368,7 @@ h1 + p {
 }
 
 h2 {
-  color: #4071bf;
+  color: #8a40bf;
   text-align: center;
   font-size: 2.84444rem;
   font-weight: 700;
@@ -440,7 +440,7 @@ a :focus {
 }
 
 .indigo-span {
-  color: #4071bf;
+  color: #8a40bf;
 }
 
 .logo {
@@ -686,13 +686,34 @@ form {
   height: 20px;
 }
 
+.header__CTA {
+  color: #8a40bf;
+  font-weight: 500;
+  transition: 400ms;
+}
+
+.header__CTA:hover {
+  background-color: white;
+  color: #fc9d03;
+}
+
+.header__CTA:active {
+  background-color: white;
+  color: #fc9d03;
+}
+
+.header__CTA:active {
+  background-color: white;
+  color: #fc9d03;
+}
+
 main {
   margin-bottom: 60vw;
 }
 
 footer {
-  position: fixed;
-  inset: auto 0 0 0;
+  position: sticky;
+  bottom: 0px;
   display: flex;
   justify-content: space-between;
   background-color: #4d4d4d;
@@ -706,6 +727,10 @@ footer p, footer a, footer address {
 
 footer a {
   margin: 0 2vw;
+}
+
+.footer {
+  padding: 5vh 10vw;
 }
 
 .footer__map {
@@ -753,6 +778,13 @@ footer a {
   margin-top: 10vh 0 5vh;
   background: url(/img/home4.jpeg);
   background-size: cover;
+}
+
+.banner__grandma {
+  background: url(/img/home4.jpeg);
+  background-size: cover;
+  height: 20vh;
+  margin: 5vh 0 30vh;
 }
 
 section {
@@ -887,13 +919,14 @@ section__img {
 
 .mealbox__title {
   padding: 3vh 0 5vh;
-  color: #4071bf;
+  color: #8a40bf;
 }
 
 .mealbox__item {
   margin: 5vh 5vw;
-  background-image: linear-gradient(90deg, white, #fed89a);
+  /* background-image: linear-gradient(90deg, white, $primaryColLightSat); */
   border-radius: 15px;
+  border: 3px solid #fc9d03;
 }
 
 .mealbox__up {
@@ -954,6 +987,10 @@ section__img {
   padding: 0 5vw;
 }
 
+.works__title {
+  background-color: #8a40bf;
+}
+
 .works__list {
   display: flex;
 }
@@ -977,6 +1014,7 @@ section__img {
 
 .team {
   padding: 0 5vw;
+  overflow: hidden;
 }
 
 .team__img {

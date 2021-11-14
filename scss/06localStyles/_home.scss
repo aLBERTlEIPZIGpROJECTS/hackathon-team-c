@@ -1,5 +1,8 @@
 .works{
     padding: 0 5vw;
+    &__title{
+        background-color: $complementaryCol;
+    }
     &__list{
         display: flex;
     }
@@ -22,6 +25,7 @@
 
 .team {
     padding: 0 5vw;
+    overflow: hidden;
 
     &__img{
         width: $imgBig;
