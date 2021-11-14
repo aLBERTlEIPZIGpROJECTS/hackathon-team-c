@@ -1,30 +1,39 @@
 footer{
-/*     position: sticky; */
-   /*  position: fixed;
-    inset: auto 0 0 0 ; */
-    display: flex;
-    justify-content: space-between;
-    background-color: #4d4d4d;
-    padding: 5vh 5vw;
-
-    p, a, address{
-        font-size: $f2;
-        color: white;
-    }
-    a{
-        margin: 0 2vw;
-    }
-}
-
-.footer{
-    padding: 5vh 10vw;
-    &__map{
-        display: none;
-    }
-    &__social{
+    /*     position: sticky; */
+       /*  position: fixed;
+        inset: auto 0 0 0 ; */
         display: flex;
+        justify-content: space-between;
+        background-color: #4d4d4d;
+        padding: 5vh 5vw;
+    
+        p, a, address{
+            font-size: $f2;
+            color: white;
+        }
+        a{
+            margin: 0 2vw;
+        }
     }
-    &__social-icon{
-        height: 20px;
+    
+    .footer{
+        padding: 5vh 10vw;
+        &__map{
+            display: none;
+        }
+        &__social{
+            display: flex;
+        }
+        &__social-icon{
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+            height: 35px;
+            width: 35px;
+            padding: 5px;
+        }
     }
-}
+    
+    .phone-mail{
+        margin-top: 2em;
+    }
