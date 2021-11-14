@@ -47,9 +47,6 @@
     &__right{
         width: 25vw;
         padding-right: 2vw;
-        display: flex;
-        justify-content: space-between;
-        width: 25vw;
     }
 
     &__nav{
@@ -85,5 +82,9 @@
     &__about{
         background: url(/img/ibrahim-rifath-KarPVhqgmWw-unsplash.jpg);
         background-size: cover;
+    }
+
+    &__subt{
+        line-height: 1.6em;
     }
 }
