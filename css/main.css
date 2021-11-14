@@ -770,27 +770,23 @@ footer a {
 
 .banner__store {
   margin: 10vh 0 5vh;
-  background-color: red;
   background: url(/img/home2.jpeg);
   background-size: cover;
 }
 
 .banner__team {
-  background-color: red;
   margin: 10vh 0 5vh;
   background: url(/img/home3.jpg);
   background-size: cover;
 }
 
 .banner__about {
-  background-color: red;
   margin-top: 10vh 0 5vh;
   background: url(/img/home4.jpeg);
   background-size: cover;
 }
 
 .banner__grandma {
-  background-color: red;
   background: url(/img/home4.jpeg);
   background-size: cover;
   height: 20vh;
