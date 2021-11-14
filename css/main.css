@@ -441,7 +441,15 @@ a :focus {
 }
 
 .indigo-span {
-  color: #8a40bf;
+  color: #9403fc;
+}
+
+.quote {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin: 2em auto;
+  font-size: 3.79259rem;
+  color: #9403fc;
 }
 
 .logo {
@@ -810,6 +818,25 @@ section__img {
   margin-right: auto;
   margin-left: auto;
   width: 60vw;
+  transition: 400ms;
+}
+
+.section__CTA:hover {
+  background-color: #8a40bf;
+  color: white;
+}
+
+.section__CTA:focus {
+  background-color: #fc9d03;
+  color: white;
+  border: white;
+  transform: scale(1.2);
+}
+
+.section__CTA:active {
+  background-color: #fc9d03;
+  color: white;
+  border: white;
 }
 
 .our__story {
@@ -957,6 +984,7 @@ section__img {
 
 .mealbox__howmany {
   font-size: 1.6rem;
+  color: #fc9d03;
 }
 
 .mealbox__price {
@@ -972,6 +1000,7 @@ section__img {
   font-size: 2.13333rem;
   text-align: center;
   margin-top: 5vh;
+  color: #5e3a78;
 }
 
 .mealbox__option-container {
@@ -983,6 +1012,22 @@ section__img {
   border: 3px solid #8a40bf;
   border-radius: 20px;
   overflow: hidden;
+}
+
+.impressum__main {
+  padding: 10vh 10vw;
+}
+
+.impressum__title {
+  color: #5e3a78;
+  margin-bottom: 10vh;
+}
+
+.impressum__txt {
+  color: #4d4d4d;
+  font-size: 1.6rem;
+  line-height: 2em;
+  font-weight: 200;
 }
 
 .works {
@@ -1064,11 +1109,55 @@ section__img {
 }
 
 @media screen and (min-width: 1200px) {
+  section {
+    padding: 5vh;
+  }
   .store__hero {
-    padding: 3rem;
+    padding: 10rem;
   }
   .team__hero {
-    padding: 3rem;
+    padding: 10rem;
+  }
+  .section__content {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
+  .team {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
+  .section__CTA {
+    margin: 7vh auto 5vh;
+  }
+  .us__list {
+    max-width: 50vw;
+    margin: 7.5vh auto;
+    padding-left: 15vw;
+  }
+  .iconMed {
+    margin-right: .5vw;
+  }
+  .us__div {
+    margin: 3vh auto;
+  }
+  .us__explanation {
+    max-width: 50vw;
+    margin: 0 auto;
+  }
+  .mealbox__name {
+    font-size: 2.13333rem;
+  }
+  .mealbox__description {
+    font-size: 2.13333rem;
+  }
+  .mealbox__howmany {
+    font-size: 2.13333rem;
+  }
+  .mealbox__price {
+    font-size: 2.13333rem;
+  }
+  .mealbox__note {
+    font-size: 2.13333rem;
   }
 }
 
@@ -1079,5 +1168,17 @@ section__img {
   }
   .mealbox__item {
     width: 30vw;
+  }
+  .impressum__title {
+    color: #5e3a78;
+    margin-bottom: 10vh;
+  }
+  .impressum__txt {
+    color: #4d4d4d;
+    font-size: 1.6rem;
+    line-height: 2em;
+    font-weight: 200;
+    max-width: 75ch;
+    margin-left: 15vw;
   }
 }

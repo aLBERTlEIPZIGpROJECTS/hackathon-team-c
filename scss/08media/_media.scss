@@ -35,12 +35,65 @@
 }
 
 @media screen and (min-width: 1200px){
+    section{
+        padding: 5vh;
+    }
     .store__hero{
-        padding: 3rem;
+        padding: 10rem;
     }
     .team__hero{
-        padding: 3rem;
+        padding: 10rem;
     }
+    .section__content{
+        max-width: 50vw;
+        margin: 0 auto;
+    }
+    .team{
+        max-width: 50vw;
+        margin: 0 auto;
+    }
+    .section__CTA{
+        margin: 7vh auto 5vh;
+    }
+
+    .us__list{
+        max-width: 50vw;
+        margin: 7.5vh auto;
+        padding-left: 15vw;
+    }
+
+    .iconMed{
+        margin-right: .5vw;
+    }
+    .us__div{
+        margin: 3vh auto;
+    }
+
+    .us__explanation{
+        max-width: 50vw;
+        margin: 0 auto;
+    }
+
+    .mealbox{
+        &__name{
+            font-size: $f3;
+        }    
+        &__description{
+            font-size: $f3;
+        }
+        &__howmany{
+            font-size: $f3;
+        }
+        &__price{
+            font-size: $f3;
+        }
+        &__note{
+            font-size: $f3;
+        }
+    }
+    
+    
+    
 }
 
 @media screen and (width: 1200px){
@@ -53,6 +106,21 @@
         }
         &__item{
             width: 30vw;
+        }
+    }
+
+    .impressum{
+        &__title{
+            color: $complementaryColDarkMuted;
+            margin-bottom: 10vh;
+        }
+        &__txt{
+            color: #4d4d4d;
+            font-size: $f2;
+            line-height: 2em;
+            font-weight: 200;
+            max-width: 75ch;
+            margin-left: 15vw;
         }
     }
 
