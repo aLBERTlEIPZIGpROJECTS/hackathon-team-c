@@ -1,9 +1,8 @@
 .sub__main{
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .mealbox{
-
     &__title{
         padding: 3vh 0 5vh;
         color: $complementaryCol;
@@ -14,36 +13,45 @@
         border-radius: 15px;
         border: 3px solid $primaryColSat;
     }
+    &__option-all{
+        display: flex;
+    }
     &__up{
         display: flex;
     }
     &__name{
         font-size: $f3;
         text-align: center;
+        color: $primaryColSat;
+        padding: .5em 0 1em 0;
     }    
     &__description{
         font-size: $f2;
         margin: 0 5vw;
         text-align: center;
     }
+/*     &__description-container{
+        background-color: red;
+    } */
     &__img{
         height: 100%;
         width: $imgMedPlus;
-        grid-area: img;
         margin-bottom: 1.5vh;
-        border-radius: 0 0 10px 0;
+        border-radius: 0 10px 10px 0;
+        transition: 400ms;
+        overflow: hidden;
+        :hover{
+            transform: scale(1.2);
+        }
     }
     &__howmany{
         font-size: $f2;
         color: $primaryColSat
     }
     &__price{
-        font-size: $f2;
-        grid-area: price;
-    }/* 
-    &__plus{
-        background-color: red;
-    } */
+        font-size: $f3;
+        text-align: center;        
+    }
     &__container{
         grid-area: container;
     }
@@ -54,13 +62,28 @@
         color: $complementaryColDarkMuted;
     }
     &__option-container{
+        /* border: 3px solid $complementaryColSat; */
+        border-radius: 5px;
+        width: 50%;
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: space-between;
     }
     &__displayed{
         border: 3px solid $complementaryCol;
         border-radius: 20px;
         overflow: hidden;
+    }
+    &__btn{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: .5em;
+    }
+    &__headline{
+        color: $primaryColSat;
+        font-size: $f4;
+        text-align: center;
+        margin-top: .5em;
     }
 }
 

@@ -992,12 +992,11 @@ section__img {
 }
 
 .sub__main {
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 .mealbox {
-  /* 
-    &__plus{
+  /*     &__description-container{
         background-color: red;
     } */
 }
@@ -1014,6 +1013,10 @@ section__img {
   border: 3px solid #fc9d03;
 }
 
+.mealbox__option-all {
+  display: flex;
+}
+
 .mealbox__up {
   display: flex;
 }
@@ -1021,6 +1024,8 @@ section__img {
 .mealbox__name {
   font-size: 2.13333rem;
   text-align: center;
+  color: #fc9d03;
+  padding: .5em 0 1em 0;
 }
 
 .mealbox__description {
@@ -1032,9 +1037,14 @@ section__img {
 .mealbox__img {
   height: 100%;
   width: 40vw;
-  grid-area: img;
   margin-bottom: 1.5vh;
-  border-radius: 0 0 10px 0;
+  border-radius: 0 10px 10px 0;
+  transition: 400ms;
+  overflow: hidden;
+}
+
+.mealbox__img :hover {
+  transform: scale(1.2);
 }
 
 .mealbox__howmany {
@@ -1043,8 +1053,8 @@ section__img {
 }
 
 .mealbox__price {
-  font-size: 1.6rem;
-  grid-area: price;
+  font-size: 2.13333rem;
+  text-align: center;
 }
 
 .mealbox__container {
@@ -1059,14 +1069,31 @@ section__img {
 }
 
 .mealbox__option-container {
+  /* border: 3px solid $complementaryColSat; */
+  border-radius: 5px;
+  width: 50%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mealbox__displayed {
   border: 3px solid #8a40bf;
   border-radius: 20px;
   overflow: hidden;
+}
+
+.mealbox__btn {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: .5em;
+}
+
+.mealbox__headline {
+  color: #fc9d03;
+  font-size: 2.84444rem;
+  text-align: center;
+  margin-top: .5em;
 }
 
 .impressum__main {
