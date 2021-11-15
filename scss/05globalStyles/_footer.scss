@@ -15,6 +15,14 @@ footer{
             margin: 0 2vw;
         }
     }
+
+    &__social-icon{
+        height: 25px;
+        width: 25px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 50%;
+
     
     .footer{
         padding: 5vh 10vw;
@@ -32,6 +40,7 @@ footer{
             width: 35px;
             padding: 5px;
         }
+
     }
     
     .phone-mail{
