@@ -800,7 +800,7 @@ form {
 footer {
   /*     position: sticky; */
   /*  position: fixed;
-    inset: auto 0 0 0 ; */
+        inset: auto 0 0 0 ; */
   display: flex;
   justify-content: space-between;
   background-color: #4d4d4d;
@@ -834,7 +834,10 @@ footer a {
   padding: 5px;
   background-color: white;
   border-radius: 50%;
-}
+
+  .phone-mail {
+  margin-top: 2em;
+
 
 .article {
   margin: 5vh 0;
